@@ -1,0 +1,34 @@
+{
+  "name": "quites",
+  "version": "1.0.0",
+  "description": "firstPWA",
+  "main": "serviceWorker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorRock/PWA.git"
+  },
+  "keywords": [
+    "PWA",
+    "weather"
+  ],
+  "author": "Paulo Victor Mathias Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorRock/PWA/issues"
+  },
+  "homepage": "https://github.com/viktorRock/PWA#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "require": "^2.4.20",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "sw-precache": "^5.1.0"
+  }
+}
